@@ -1,0 +1,83 @@
+/* Base styles */
+.backed {
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    color: #070707;
+    margin-bottom: 20px;
+  }
+  
+  .grth {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(246, 250, 250);
+    padding: 20px;
+  }
+  
+  .logos img {
+    width: 150px;
+    height: auto;
+    margin: 0 10px;
+  }
+  
+  .footerImage, .footerImage2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  
+  .footerImage img, .footerImage2 img {
+    height: 150px;
+    width: 200px;
+    margin: 10px;
+  }
+  
+  .h11 {
+    
+width: 197.54px;
+height: 48px;
+left: 1000.88px;
+top: 200px;
+margin-left: 40%;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 48px;
+/* identical to box height, or 100% */
+
+align-items: center;
+justify-content: center;
+
+color: #030A21;
+
+border: 0.5px solid #FFFFFF;
+text-shadow: 1px 1px 1px #000000;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .backed {
+      font-size: 28px;
+    }
+  
+    .logos img {
+      width: 120px;
+    }
+  
+    .footerImage img, .footerImage2 img {
+      height: 150px;
+      width: 130px;
+    }
+  }
+  

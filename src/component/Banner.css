@@ -1,0 +1,31 @@
+.container1 {
+
+    padding: 20px;
+    border-radius: 2px;
+     background-color: rgb(134, 134, 209);
+    border-radius: 1px solid rgb(84, 38, 38); 
+    color: aliceblue;
+    width: auto;
+  border: 2px solid rgb(48, 60, 48);
+  padding: 10px;
+  margin: 20px;
+  }
+  
+  .text-box {
+    color: white;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  span {
+    display: block;
+    margin-bottom: 5px;
+  }
+  

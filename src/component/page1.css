@@ -1,0 +1,155 @@
+/* Basic styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Responsive media queries */
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens (tablets and below) */
+  header,
+  .hero,
+  .logos,
+  footer {
+    padding: 20px 10px;
+  }
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .learn {
+    margin-bottom: 10px;
+  }
+
+  .container2 {
+    padding: 10px;
+    background-color: #07010b;
+    display: inline;
+  }
+
+  nav {
+    float: none; /* Stack navigation on smaller screens */
+    text-align: center;
+    margin-top: 0%; /* Center navigation links */
+  }
+
+  nav li {
+    display: block; /* Change nav items to block for stacking */
+    margin: 2px auto;
+  }
+
+  .hero h1 {
+    font-size: 32px; /* Adjust hero heading size */
+  }
+
+  .logos-wrapper img {
+    width: 10px; /* Adjust logo image size */
+    height: 30px;
+    display: flex; /* Center footer content */
+  }
+}
+
+.footer-container {
+  justify-content: center;
+}
+
+/* Rest of your styles */
+
+.hero {
+  background-color: #07010b;
+  padding: 50px 0;
+  text-align: left;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  font-family: "Andika";
+  color: #f3eeee;
+  margin-right: 70%;
+  border-radius: 1px;
+}
+
+.hero p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.hero .btn {
+  background-color: #62961a;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  background: #37ed81;
+  border: 2px solid #000000;
+  box-shadow: 3px 3px 1px #ffffff;
+  border-radius: 12px;
+}
+
+/* Logos section styles */
+.f1 {
+  background-color: #170202;
+  padding: 50px 0;
+  color: #300505;
+}
+
+.f1 h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #eee3e3;
+}
+
+.f1-wrapper {
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+}
+
+.f1-wrapper img {
+  width: 110px;
+  height: 30px;
+  margin: 10;
+  background-color: #0e0101;
+}
+@media screen and (max-width: 991px) {
+  /* Adjust styles for smaller screens (tablets and below) */
+
+  header,
+  .hero,
+  .logos,
+  footer {
+    padding: 20px 10px;
+  }
+
+  .container2 {
+    padding: 10px;
+    background-color: #07010b;
+    display: inline;
+  }
+
+  .hero h1 {
+    font-size: 32px; /* Adjust hero heading size */
+  }
+
+  .logos-wrapper img {
+    width: 10px; /* Adjust logo image size */
+    height: 30px;
+    display: flex; /* Center footer content */
+  }
+}

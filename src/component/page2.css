@@ -1,0 +1,45 @@
+.container12 {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.div11 {
+  display: flex;
+  justify-content: space-evenly; /* Changed from margin-right: 30% */
+}
+
+.div11 img {
+  width: 330px;
+  height: 180px;
+}
+
+.div22 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.div22 img {
+  width: 140px;
+  height: 180px;
+}
+
+/* Media Query for screens smaller than 780px */
+@media screen and (max-width: 780px) {
+  .div11 {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center items horizontally */
+  }
+
+  .div11 img {
+    margin-bottom: 10px; /* Add some space between stacked images */
+  }
+
+  .div22 {
+    margin-top: 20px; /* Add some space between div11 and div22 */
+  }
+  
+  .div22 img {
+    width: 120px; /* Reduce image size for smaller screens */
+    height: 120px;
+  }
+}

@@ -1,0 +1,20 @@
+.mainClass {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    background-color: black;
+  }
+  
+  .mainClass div {
+    flex: 1; /* Each div takes equal space */
+    margin: 10px; /* Adjust spacing between divs */
+    text-align: center; /* Center-align content within div */
+  }
+  
+  .mainClass img {
+    max-width: 100%; /* Ensure images don't exceed container width */
+    height: auto;
+    padding-top: 5px;
+    margin-top: 15%; /* Maintain aspect ratio */
+  }
+  
