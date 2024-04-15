@@ -41,7 +41,8 @@ const GrowthSchool = () => {
           <section className="f1">
               <h2>Trusted by Leading Companies</h2>
               <div className="f1-wrapper">
-               <img src={canvaLogo} />&nbsp;
+                <marquee>
+                <img src={canvaLogo} />&nbsp;
                <img src={cocaColaLogo} />&nbsp;
                <img src={paytmLogo}/>&nbsp;
                <img src={Ogily}/>&nbsp;
@@ -52,6 +53,8 @@ const GrowthSchool = () => {
                <img src={walmart}/>&nbsp;
                <img src={mpl}/>&nbsp;
                <img src={nvd}/>&nbsp;
+                </marquee>
+               
               </div>
           </section>
         </main>

@@ -126,6 +126,7 @@ body {
   height: 30px;
   margin: 10;
   background-color: #0e0101;
+  justify-content: space-around;
 }
 @media screen and (max-width: 991px) {
   /* Adjust styles for smaller screens (tablets and below) */

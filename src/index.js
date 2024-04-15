@@ -11,6 +11,7 @@ import Page5 from './component/Page5';
 import Page7 from './component/Page7';
 import Page8 from './component/Page8'; 
 import Navbar from './component/Navbar';
+import Footer from './component/Footer';
 
 
 
@@ -26,6 +27,7 @@ root.render(
    <Page5/>
    <Page7/>
    <Page8/>
+   <Footer/>
   </React.StrictMode>
 );
 

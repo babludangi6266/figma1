@@ -5,7 +5,7 @@ header {
 }
 
 .logoimage {
-  width: 40px;
+  width: 42px;
   height: 25px;
 }
 
@@ -15,7 +15,7 @@ header {
 }
 
 .logo a {
-  font-size: 24px;
+  font-size: 27px;
   text-decoration: none;
   color: #fbf3f3;
 }
@@ -71,6 +71,9 @@ nav a {
   color: #f6efef;
   text-decoration: none;
 }
+nav ul li a:not(.active):hover{
+  background-color: #787a82;
+}
 
 /* Responsive media queries */
 @media (max-width: 768px) {
@@ -103,6 +106,7 @@ nav a {
   }
 
   nav ul {
+    justify-content: space-between;
     flex-direction: column;
     text-align: center;
     padding-top: 10px;
