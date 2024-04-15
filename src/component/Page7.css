@@ -12,9 +12,15 @@
   }
   
   .mainClass img {
-    max-width: 100%; /* Ensure images don't exceed container width */
+    max-width: 100%;
     height: auto;
     padding-top: 5px;
-    margin-top: 15%; /* Maintain aspect ratio */
+    margin-top: 15%;
+    transition: transform 0.3s ease; /* Smooth transition for transform property */
   }
+  
+  .mainClass img:hover {
+    transform: scale(1.1); /* Scale the image by 10% on hover */
+  }
+  
   

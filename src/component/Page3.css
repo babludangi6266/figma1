@@ -13,8 +13,12 @@
   width: 30%;
   margin: 10px;
   object-fit: cover;
+  transition: transform 0.3s ease; /* Smooth transition for transform property */
 }
 
+.detailsCard img:hover {
+  transform: scale(1.1); /* Scale the image by 10% on hover */
+}
 h1 {
   text-align: center;
   justify-content: center;

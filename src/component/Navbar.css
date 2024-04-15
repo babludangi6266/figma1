@@ -71,9 +71,14 @@ nav a {
   color: #f6efef;
   text-decoration: none;
 }
-nav ul li a:not(.active):hover{
+nav ul li a:not(.active):hover {
   background-color: #787a82;
+  color: #fff; 
+  border-radius: 5px; /* Add rounded corners on hover */
+  box-shadow: 0 0 5px rgba(251, 247, 247, 0.3); /* Add a subtle shadow on hover */
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
 }
+
 
 /* Responsive media queries */
 @media (max-width: 768px) {
