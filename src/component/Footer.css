@@ -22,7 +22,7 @@
 }
 
 .footerLeftDiv {
-    width: 65%; /* Adjusted width */
+    width: 70%; /* Adjusted width */
     display: flex;
     flex-wrap: wrap; /* Allow content to wrap */
     padding: 20px; /* Added padding for better spacing */
@@ -123,7 +123,7 @@
 }
 
 /* Media Query for smaller screens */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
     .footerMainDiv {
         flex-direction: column;
         min-height: auto; /* Changed height to auto for flexibility */
@@ -131,7 +131,7 @@
 
     .foooterRightDiv,
     .footerLeftDiv {
-        width: 100%;
+        width: 80%;
         margin: 0; /* Removed margin for full width */
     }
 
@@ -142,12 +142,14 @@
     .btn1,
     .btn2 {
         width: 100%;
-        
+        padding: auto;
         margin-bottom: 10px; /* Added margin for spacing */
     }
 
     .btn2 {
         margin-left: 15px;
+        padding-top: 0px;
+        margin-bottom:50px ;
          /* Added left margin to Button2 */
     }
 
@@ -155,7 +157,7 @@
     .roles-div,
     .engage-div,
     .company-div {
-        width: 100%;
+        width: 80%;
     }
 
     .social-icons {
@@ -165,5 +167,8 @@
 
     .copyright p {
         margin-top: 30px; /* Adjusted top margin */
+    }
+    .footer-logo-div{
+        margin-left: 10px;
     }
 }
